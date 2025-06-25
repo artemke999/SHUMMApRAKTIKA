@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+            }
+
+            nav {
+                text-align: right;
+                padding-bottom: 25px;
+                border-bottom: 1px dashed black;
+            }
+
+            nav a {
+                margin: 10px;
+                text-decoration: none;
+            }
+
+            h1 {
+                font-size: 50px;
+                text-align: center;
+                margin-bottom: 25px;
+            }
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            .text {
+                width: 300px;
+            }
+
+            .text p {
+                color: lightblue;
+                font-size: 35px;
+            }
+
+            .text em {
+                display: block;
+                text-align: right;
+            }
+
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0px;
+                width: 500px;
+            }
+
+            .gallery img {
+                width: 166.66px;
+                height: 250px;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <nav> <a href="#">Сезонные акции</a> <a href="#">Контакты</a> </nav>
+        <h1>Горные экскурсии</h1>
+        <div class="container">
+            <div class="gallery">
+                <img src="https://avatars.mds.yandex.net/i?id=77131905917f322fba108f1734f930596c0fca8b-12471733-images-thumbs&n=13">
+                <img src="https://avatars.mds.yandex.net/i?id=513f14f093e7deadd89e7ed9e0775a62_l-10700840-images-thumbs&n=13">
+                <img src="https://avatars.mds.yandex.net/i?id=76ebed5bcb1957597ab806b43d6a3afc20a25e41-5243009-images-thumbs&n=13">
+                
+                <img src="https://avatars.mds.yandex.net/i?id=daca9fb846ab9837a34d9b2785b91e52_l-9084061-images-thumbs&n=13">
+                <img src="https://avatars.mds.yandex.net/i?id=e530562aa640860eca0e07ef2370c3e2_l-8963933-images-thumbs&n=13">
+                <img src="https://avatars.mds.yandex.net/i?id=dd438284add60849dc42e6f8ebee812801abe755-5232064-images-thumbs&n=13">
+            </div>
+            <div class="text">
+                <p>Только</p>
+                <p><em>горы!</em></p>
+                <p>Только</p>
+                <p><em>вперёд!</em></p>
+            </div>
+        </div>
+    </body>
+</html>
